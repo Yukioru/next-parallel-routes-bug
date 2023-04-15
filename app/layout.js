@@ -12,11 +12,12 @@ function RootLayout({ children, extension }) {
           <div>
             <b>Soft navigation</b>
             <Link href="/">To "/"</Link>{' '}
-            <Link href="/overview">To "/overview"</Link>
+            <Link href="/overview">To "/overview"</Link>{' '}
+            <Link href="/demo">To "/demo"</Link>
           </div>
           <div>
             <b>Hard navigation</b>
-            <a href="/">To "/"</a> <a href="/overview">To "/overview"</a>
+            <a href="/">To "/"</a> <a href="/overview">To "/overview"</a> <a href="/demo">To "/demo"</a>
           </div>
           <hr />
           {children}
