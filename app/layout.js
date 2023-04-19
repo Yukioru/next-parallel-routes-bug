@@ -1,12 +1,14 @@
 import Link from 'next/link';
-import Sidebar from '../components/Sidebar';
 
 function RootLayout({ children, extension }) {
   return (
     <html lang="en">
       <body style={{ display: 'flex' }}>
         <aside>
-          <Sidebar extension={extension} />
+          <div style={{ border: '1px solid red', height: 400, minWidth: 100 }}>
+            <h3>Sidebar</h3>
+            <div style={{ border: '1px solid blue' }}>{extension}</div>
+          </div>
         </aside>
         <div>
           <div>
