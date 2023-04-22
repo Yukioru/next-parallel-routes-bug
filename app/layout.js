@@ -7,7 +7,7 @@ function RootLayout({ children, extension }) {
         <aside>
           <div style={{ border: '1px solid red', height: 400, minWidth: 100 }}>
             <h3>Sidebar</h3>
-            {JSON.stringify({ extension: extension?.props?.childProp?.segment })}
+            {JSON.stringify({ 'extension.props.childProp.segment': extension?.props?.childProp?.segment })}
             <div style={{ border: '1px solid blue' }}>{extension}</div>
           </div>
         </aside>
