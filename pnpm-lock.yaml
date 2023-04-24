@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   next:
-    specifier: 13.3.1-canary.19
-    version: 13.3.1-canary.19(react-dom@18.2.0)(react@18.2.0)
+    specifier: 13.3.2-canary.3
+    version: 13.3.2-canary.3(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -136,8 +136,8 @@ packages:
     hasBin: true
     dev: false
 
-  /next@13.3.1-canary.19(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-lGxlpalpqi1jVP3ivK/xrO+1y6nnIgaMPlm1Lelq0pALlF0SZ3jNjoDXlWAJeVSadgbNX5IRUqto2g4PjEaihQ==}
+  /next@13.3.2-canary.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-tD7tHrSBoFa16KbyyZtIHMdYrPJJrBOlWYyeGc08AFsqn48gFyznUe76j77NEeYUIP6WoOnqYwPggg6z4OaRpg==}
     engines: {node: '>=14.18.0'}
     hasBin: true
     peerDependencies:
@@ -157,7 +157,7 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': 13.3.1-canary.19
+      '@next/env': 13.3.2-canary.3
       '@swc/helpers': 0.5.0
       busboy: 1.6.0
       caniuse-lite: 1.0.30001478
@@ -165,16 +165,6 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       styled-jsx: 5.1.1(react@18.2.0)
-    optionalDependencies:
-      '@next/swc-darwin-arm64': 13.3.1-canary.19
-      '@next/swc-darwin-x64': 13.3.1-canary.19
-      '@next/swc-linux-arm64-gnu': 13.3.1-canary.19
-      '@next/swc-linux-arm64-musl': 13.3.1-canary.19
-      '@next/swc-linux-x64-gnu': 13.3.1-canary.19
-      '@next/swc-linux-x64-musl': 13.3.1-canary.19
-      '@next/swc-win32-arm64-msvc': 13.3.1-canary.19
-      '@next/swc-win32-ia32-msvc': 13.3.1-canary.19
-      '@next/swc-win32-x64-msvc': 13.3.1-canary.19
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
