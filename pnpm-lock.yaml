@@ -60,18 +60,10 @@ packages:
   /@next/swc-linux-x64-gnu@13.5.4-canary.1:
     resolution: {integrity: sha512-7jJTVCGd/uExjgebZQr4k1ml3HEt0AExFoJwtniIMe1iFUyM7bjVyqij+PfuREDOh+N6R9ILDqPHOYUzYr75+Q==}
     engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: false
     optional: true
 
   /@next/swc-linux-x64-musl@13.5.4-canary.1:
     resolution: {integrity: sha512-402dIEdiLxMNR9QFhqPnGEFTyas9KLA/oPWadR8KzpF+rdJq+2GsoaOTYHAGR0Cydtl4g2TCRUCSrr79b0vdSQ==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
     dev: false
     optional: true
 
